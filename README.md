@@ -5,7 +5,7 @@ This repository contains the code for the MSc. Thesis:
 
 Greg Forkutza. *Inferring the time-varying transmission rate and
 effective reproduction number by fitting semi-mechanistic compartmental
-models to incidence data*.
+models to incidence data*. available at: http://hdl.handle.net/11375/30098. 
 
 The examples in this thesis can be reproduced by executing any of the
 files in the R/Examples directory.
@@ -31,6 +31,10 @@ we evaluate the performance of different smoothing bases derived using
 the `mgcv` package. Our findings indicate that this methodology can be
 extended to various ecological and epidemiological contexts, offering a
 versatile and robust approach to parameter estimation in dynamic models.
+
+## Notes
+
+Some refactoring of the functions is still pending. Currently, you'll notice multiple versions of certain functions for each example. The main difference between them is that some examples use simulated data, while others include an additional time aggregation step. In the future, I plan to consolidate these functions into a single version that can handle all data types, as well as both aggregated and non-aggregated data.
 
 # Resources
 
